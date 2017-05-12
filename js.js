@@ -37,7 +37,7 @@ document.getElementById('task2').innerHTML = task2;
 // Преобразуйте его в строку и сохраните в LocalStorage под именем 'mass'
 // Считайте его из localStorage в переменнуд primer
 // Преобразуйте primer из строки в массив
-// Выведите в консоль
+// Выведите в консоль  https://tproger.ru/articles/localstorage/
 
 var arr2 = {
     "k1" : "17w4",
