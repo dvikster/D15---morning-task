@@ -60,3 +60,19 @@ var arr2Restore = JSON.parse(primer);
 console.log(arr2Restore);
 
 
+document.querySelector('button').onclick = function() {
+    var result ='';
+    var val1=document.getElementById('val1').value;
+    var val2=document.getElementById('val2').value;
+    var mul=document.getElementById('mul');
+    var sub=document.getElementById('sub');
+    if(mul.checked){
+       result = val1*val2;
+    }
+    else if(sub.checked){
+        result = val1/val2;
+    }
+    document.getElementById('out').innerHTML = result;
+}
+
+
