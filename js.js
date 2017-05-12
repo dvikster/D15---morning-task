@@ -28,7 +28,7 @@ var arr = {
 }
 task2 = '';
 for(key in arr) {
-    task2+=[key]+' : '+ arr[key] +'<br>';
+    task2+=[key]+' *** '+ arr[key] +'<br>';
 }
 document.getElementById('task2').innerHTML = task2;
 
